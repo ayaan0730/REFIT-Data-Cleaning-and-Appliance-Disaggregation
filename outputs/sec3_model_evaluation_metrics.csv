@@ -1,0 +1,11 @@
+Split,Model,Overall_MAE_W,RMSE_W,Active_ON_MAE_W,True_Energy_kWh,Pred_Energy_kWh,Rel_Energy_Err_SAE_%,NDE,ON_Precision,ON_Recall,ON_F1_Score
+Temporal Split (70/15/15),Baseline 1: Always-Off (0W),15.73,150.14,362.73,134.43,0.0,100.0,1.0,0.0,0.0,0.0
+Temporal Split (70/15/15),Baseline 2: Time-of-Day Profile,24.85,149.04,346.89,134.43,90.83,32.43,0.993,0.083,0.37,0.136
+Temporal Split (70/15/15),Model 1: Two-Stage Hurdle LightGBM,11.78,108.83,196.16,134.43,111.35,17.16,0.725,0.703,0.541,0.611
+Temporal Split (70/15/15),Model 2: PyTorch Seq2Point 1D-CNN,18.62,121.21,188.55,134.43,179.65,33.64,0.807,0.31,0.756,0.44
+Temporal Split (70/15/15),Model 3: Hybrid Gate + Seq2Point-LGBM Ensemble,11.01,98.58,196.95,134.43,100.53,25.22,0.657,0.705,0.542,0.613
+Unseen House Split (Test=House 7),Baseline 1: Always-Off (0W),25.04,202.27,463.37,284.55,0.0,100.0,1.0,0.0,0.0,0.0
+Unseen House Split (Test=House 7),Baseline 2: Time-of-Day Profile,33.61,200.8,447.65,284.55,118.68,58.29,0.993,0.116,0.304,0.168
+Unseen House Split (Test=House 7),Model 1: Two-Stage Hurdle LightGBM,22.62,178.58,329.66,284.55,188.14,33.88,0.883,0.695,0.464,0.556
+Unseen House Split (Test=House 7),Model 2: PyTorch Seq2Point 1D-CNN,39.8,194.0,233.33,284.55,544.4,91.32,0.959,0.216,0.939,0.351
+Unseen House Split (Test=House 7),Model 3: Hybrid Gate + Seq2Point-LGBM Ensemble,21.33,167.31,325.13,284.55,174.17,38.79,0.827,0.697,0.464,0.557

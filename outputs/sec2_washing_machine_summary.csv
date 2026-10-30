@@ -1,0 +1,6 @@
+House,Channel,Appliance_Brand,Start_Date,End_Date,Total_1Min_Rows,Missing_Mins,Missing_Pct,Off_Standby_Pct (<20W),Submeter_Issue_Pct,Detected_Cycles,Cycles_Per_Week,Median_Duration_Mins,Median_Energy_kWh,Median_Peak_W
+House 1,Appliance5,Beko WMC6140,2013-10-09,2015-07-10,920091,114220,12.41,98.12,1.81,374,4.1,33.0,0.322,2327.0
+House 2,Appliance2,LG F1289TD,2013-09-17,2015-05-28,889078,217003,24.41,95.31,1.51,322,3.65,97.0,0.623,2091.0
+House 5,Appliance3,AEG L99695HWD,2013-09-26,2015-07-06,933593,83206,8.91,92.11,7.59,707,7.63,53.0,0.319,2073.0
+House 6,Appliance2,Bosch Classixx 1200,2013-11-28,2015-06-28,831480,124419,14.96,98.12,1.75,120,1.45,130.0,0.681,2059.0
+House 7,Appliance5,Bosch Unknown,2013-11-01,2015-07-08,882970,109906,12.45,91.62,4.06,834,9.52,61.0,0.55,2083.0

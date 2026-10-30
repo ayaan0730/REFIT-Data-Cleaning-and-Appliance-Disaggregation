@@ -1,0 +1,11 @@
+,missing_nan_count,missing_pct,zero_pct,negative_values,extreme_spikes_gt_limit,max_raw_wattage,min_raw_wattage
+Aggregate (Aggregate),188973.0,2.218,0.0,0.0,127.0,29159.0,0.0
+Appliance1 (Fridge),437890.0,5.14,72.13,0.0,846.0,76677.0,0.0
+Appliance2 (Freezer_1),459468.0,5.394,60.88,0.0,40.0,98301.0,0.0
+Appliance3 (Freezer_2),311961.0,3.662,57.14,0.0,118.0,73725.0,0.0
+Appliance4 (Washer_Dryer),510963.0,5.998,93.58,0.0,2085.0,98301.0,0.0
+Appliance5 (Washing_Machine),497223.0,5.837,92.08,0.0,221.0,73725.0,0.0
+Appliance6 (Dishwasher),342337.0,4.019,95.09,0.0,36.0,37610.0,0.0
+Appliance7 (Computer),232752.0,2.732,86.84,0.0,374.0,98299.0,0.0
+Appliance8 (Television_Site),390705.0,4.586,77.35,0.0,179.0,98301.0,0.0
+Appliance9 (Electric_Heater),1911811.0,22.442,0.02,0.0,50.0,65535.0,0.0

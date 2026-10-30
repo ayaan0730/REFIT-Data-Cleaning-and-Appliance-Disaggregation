@@ -1,0 +1,9 @@
+Split,Model,Overall_MAE_W,RMSE_W,Active_ON_MAE_W,True_Energy_kWh,Pred_Energy_kWh,Rel_Energy_Err_SAE_%,NDE,ON_Precision,ON_Recall,ON_F1_Score
+Temporal Split (70/15/15),Baseline 1: Always-Off (0W),15.7,150.21,365.16,133.9,0.0,100.0,1.0,0.0,0.0,0.0
+Temporal Split (70/15/15),Baseline 2: Time-of-Day Profile,24.81,149.11,349.35,133.9,90.47,32.43,0.993,0.082,0.37,0.135
+Temporal Split (70/15/15),Model 1: Two-Stage Hurdle LightGBM,11.87,110.0,198.12,133.9,111.62,16.64,0.732,0.697,0.543,0.611
+Temporal Split (70/15/15),Model 2: PyTorch Seq2Point 1D-CNN,15.18,110.2,195.0,133.9,140.01,4.56,0.734,0.39,0.716,0.505
+Unseen House Split (Test=House 7),Baseline 1: Always-Off (0W),25.04,202.27,463.37,284.55,0.0,100.0,1.0,0.0,0.0,0.0
+Unseen House Split (Test=House 7),Baseline 2: Time-of-Day Profile,33.59,200.8,447.69,284.55,118.45,58.37,0.993,0.116,0.304,0.168
+Unseen House Split (Test=House 7),Model 1: Two-Stage Hurdle LightGBM,22.56,178.2,322.39,284.55,200.07,29.69,0.881,0.698,0.477,0.567
+Unseen House Split (Test=House 7),Model 2: PyTorch Seq2Point 1D-CNN,37.97,189.74,245.45,284.55,493.93,73.58,0.938,0.247,0.951,0.392

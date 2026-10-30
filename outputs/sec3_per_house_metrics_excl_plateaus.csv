@@ -1,0 +1,21 @@
+Split,House,Model,Overall_MAE_W,RMSE_W,Active_ON_MAE_W,True_Energy_kWh,Pred_Energy_kWh,Rel_Energy_Err_SAE_%,NDE,ON_Precision,ON_Recall,ON_F1_Score
+Temporal Split (70/15/15),1,Baseline 1: Always-Off (0W),4.28,77.72,342.89,8.09,0.0,100.0,1.0,0.0,0.0,0.0
+Temporal Split (70/15/15),1,Baseline 2: Time-of-Day Profile,14.57,78.15,327.01,8.09,20.24,150.29,1.006,0.019,0.294,0.035
+Temporal Split (70/15/15),1,Model 1: Two-Stage Hurdle LightGBM,3.5,65.34,186.11,8.09,6.65,17.72,0.841,0.743,0.826,0.782
+Temporal Split (70/15/15),1,Model 2: PyTorch Seq2Point 1D-CNN,7.27,73.21,172.6,8.09,14.57,80.19,0.942,0.206,0.963,0.339
+Temporal Split (70/15/15),2,Baseline 1: Always-Off (0W),14.74,158.09,453.7,23.13,0.0,100.0,1.0,0.0,0.0,0.0
+Temporal Split (70/15/15),2,Baseline 2: Time-of-Day Profile,24.11,157.21,439.29,23.13,16.35,29.31,0.994,0.047,0.274,0.081
+Temporal Split (70/15/15),2,Model 1: Two-Stage Hurdle LightGBM,14.34,138.58,256.6,23.13,22.83,1.3,0.877,0.539,0.552,0.546
+Temporal Split (70/15/15),2,Model 2: PyTorch Seq2Point 1D-CNN,20.54,137.19,254.01,23.13,34.03,47.15,0.868,0.316,0.818,0.456
+Temporal Split (70/15/15),5,Baseline 1: Always-Off (0W),21.29,142.3,254.24,36.59,0.0,100.0,1.0,0.0,0.0,0.0
+Temporal Split (70/15/15),5,Baseline 2: Time-of-Day Profile,29.66,140.71,239.72,36.59,18.93,48.28,0.989,0.164,0.393,0.232
+Temporal Split (70/15/15),5,Model 1: Two-Stage Hurdle LightGBM,21.9,132.13,225.3,36.59,13.92,61.96,0.929,0.576,0.171,0.264
+Temporal Split (70/15/15),5,Model 2: PyTorch Seq2Point 1D-CNN,21.45,124.12,214.67,36.59,14.92,59.22,0.872,0.528,0.393,0.451
+Temporal Split (70/15/15),6,Baseline 1: Always-Off (0W),4.45,80.25,337.84,7.36,0.0,100.0,1.0,0.0,0.0,0.0
+Temporal Split (70/15/15),6,Baseline 2: Time-of-Day Profile,14.61,80.6,321.06,7.36,17.57,138.64,1.004,0.017,0.248,0.031
+Temporal Split (70/15/15),6,Model 1: Two-Stage Hurdle LightGBM,2.42,34.0,98.72,7.36,8.2,11.41,0.424,0.537,0.782,0.637
+Temporal Split (70/15/15),6,Model 2: PyTorch Seq2Point 1D-CNN,6.1,57.78,100.07,7.36,14.12,91.71,0.72,0.19,0.871,0.312
+Temporal Split (70/15/15),7,Baseline 1: Always-Off (0W),34.53,238.06,464.42,58.73,0.0,100.0,1.0,0.0,0.0,0.0
+Temporal Split (70/15/15),7,Baseline 2: Time-of-Day Profile,41.81,235.81,446.77,58.73,17.39,70.4,0.991,0.169,0.417,0.24
+Temporal Split (70/15/15),7,Model 1: Two-Stage Hurdle LightGBM,17.92,139.51,163.19,58.73,60.02,2.18,0.586,0.827,0.869,0.847
+Temporal Split (70/15/15),7,Model 2: PyTorch Seq2Point 1D-CNN,21.5,137.06,169.56,58.73,62.37,6.19,0.576,0.547,0.969,0.699
